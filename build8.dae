@@ -5,8 +5,8 @@
       <author>Blender User</author>
       <authoring_tool>Blender 2.82.7</authoring_tool>
     </contributor>
-    <created>2022-07-03T17:25:09</created>
-    <modified>2022-07-03T17:25:09</modified>
+    <created>2022-07-18T23:49:57</created>
+    <modified>2022-07-18T23:49:57</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
@@ -78,14 +78,14 @@
   <library_effects>
     <effect id="Material_001-effect">
       <profile_COMMON>
-        <newparam sid="ind2_jpg-surface">
+        <newparam sid="build12_jpg-surface">
           <surface type="2D">
-            <init_from>ind2_jpg</init_from>
+            <init_from>build12_jpg</init_from>
           </surface>
         </newparam>
-        <newparam sid="ind2_jpg-sampler">
+        <newparam sid="build12_jpg-sampler">
           <sampler2D>
-            <source>ind2_jpg-surface</source>
+            <source>build12_jpg-surface</source>
           </sampler2D>
         </newparam>
         <technique sid="common">
@@ -94,7 +94,7 @@
               <color sid="emission">0 0 0 1</color>
             </emission>
             <diffuse>
-              <texture texture="ind2_jpg-sampler" texcoord="UVMap"/>
+              <texture texture="build12_jpg-sampler" texcoord="UVMap"/>
             </diffuse>
             <index_of_refraction>
               <float sid="ior">1.45</float>
@@ -105,8 +105,8 @@
     </effect>
   </library_effects>
   <library_images>
-    <image id="ind2_jpg" name="ind2_jpg">
-      <init_from>ind2.jpg</init_from>
+    <image id="build12_jpg" name="build12_jpg">
+      <init_from>build12.jpg</init_from>
     </image>
   </library_images>
   <library_materials>

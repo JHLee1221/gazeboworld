@@ -30,7 +30,7 @@
         <material>
           <lighting>1</lighting>
           <script>
-            <uri>/home/leejeonghun/model_editor_models/school_diffuse.jpg</uri>
+            <uri>/home/leejeonghun/my_ws/src/my_package/GazeboFiles/models/schoo2/school_diffuse.jpg</uri>
             <name></name>
           </script>
           <shader type='pixel'>

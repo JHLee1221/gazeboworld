@@ -1,8 +1,8 @@
 <?xml version='1.0'?>
 <sdf version='1.7'>
-  <model name='build12'>
+  <model name='unduck'>
     <static>true</static>
-    <link name='link_1'>
+    <link name='link_0'>
       <inertial>
         <mass>1</mass>
         <inertia>
@@ -14,19 +14,19 @@
           <izz>0.166667</izz>
         </inertia>
       </inertial>
-      <pose>3e-06 -2.7e-05 0 0 -0 0</pose>
+      <pose>2.4e-05 2e-05 0 0 -0 0</pose>
       <visual name='visual'>
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/leejeonghun/model_editor_models/build12.dae</uri>
+            <uri>/home/leejeonghun/model_editor_models/duckun.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
         <material>
           <lighting>1</lighting>
           <script>
-            <uri>/home/leejeonghun/model_editor_models/ind2.jpg</uri>
+            <uri>/home/leejeonghun/model_editor_models/unduck.jpg</uri>
             <name></name>
           </script>
           <shader type='pixel'/>
@@ -40,7 +40,7 @@
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/leejeonghun/model_editor_models/build12.dae</uri>
+            <uri>/home/leejeonghun/model_editor_models/duckun.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>

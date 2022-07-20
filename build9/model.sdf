@@ -2,7 +2,7 @@
 <sdf version='1.7'>
   <model name='build9'>
     <static>true</static>
-    <link name='link_3'>
+    <link name='link_0'>
       <inertial>
         <mass>1</mass>
         <inertia>
@@ -14,20 +14,20 @@
           <izz>0.166667</izz>
         </inertia>
       </inertial>
-      <pose>5e-06 1e-06 0 0 -0 0</pose>
+      <pose>-6e-06 4e-06 0 0 -0 0</pose>
       <visual name='visual'>
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/leejeonghun/model_editor_models/build9/build9.dae</uri>
-            <scale>1 1 1</scale>
+            <uri>/home/leejeonghun/model_editor_models/build9.dae</uri>
+            <scale>1.2 1.1 1</scale>
           </mesh>
         </geometry>
         <material>
           <lighting>1</lighting>
           <script>
-            <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/White</name>
+            <uri>/home/leejeonghun/model_editor_models/build11.jpg</uri>
+            <name></name>
           </script>
           <shader type='pixel'/>
         </material>
@@ -40,7 +40,7 @@
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/leejeonghun/model_editor_models/build9/build9.dae</uri>
+            <uri>/home/leejeonghun/model_editor_models/build9.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
